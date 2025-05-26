@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://5o0yotdui5kp"]
 
-[ext_resource type="Script" uid="uid://co8dgjfb2una0" path="res://Scenes/player_movement.gd" id="1_cvnsp"]
+[ext_resource type="Script" uid="uid://co8dgjfb2una0" path="res://Scripts/player_movement.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://cb8mpnfwg0t8s" path="res://Assets/cloud_spritesheet.png" id="2_cvnsp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pu2lt"]
@@ -139,6 +139,7 @@ movement_speed = 75.0
 
 [node name="sprite" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
+z_index = 1
 sprite_frames = SubResource("SpriteFrames_6t5aa")
 animation = &"run_down"
 
