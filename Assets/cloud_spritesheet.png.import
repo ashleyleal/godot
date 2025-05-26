@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4jrwmvndqv5x"
-path="res://.godot/imported/Neuron.png-fbf189500ba8c60b633d5e4681651b7e.ctex"
+uid="uid://cb8mpnfwg0t8s"
+path="res://.godot/imported/cloud_spritesheet.png-922e1fc0085363369f9afce45e89583f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Neuron.png"
-dest_files=["res://.godot/imported/Neuron.png-fbf189500ba8c60b633d5e4681651b7e.ctex"]
+source_file="res://Assets/cloud_spritesheet.png"
+dest_files=["res://.godot/imported/cloud_spritesheet.png-922e1fc0085363369f9afce45e89583f.ctex"]
 
 [params]
 
