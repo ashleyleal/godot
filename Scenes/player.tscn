@@ -77,6 +77,11 @@ animations = [{
 "name": &"idle_side",
 "speed": 5.0
 }, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6t5aa")
@@ -140,7 +145,7 @@ script = ExtResource("1_cvnsp")
 unique_name_in_owner = true
 z_index = 1
 sprite_frames = SubResource("SpriteFrames_6t5aa")
-animation = &"run_down"
+animation = &"new_animation"
 
 [node name="collision" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_6t5aa")
